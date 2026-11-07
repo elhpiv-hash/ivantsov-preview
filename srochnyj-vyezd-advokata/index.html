@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- Как на главной: Safari не превращает номер реестра «77/16961»
+       и номер офиса в ссылки на звонок. Телефоны заданы ссылками tel: -->
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- ВСЕ ПУТИ НА ЭТОЙ СТРАНИЦЕ — ОТ КОРНЯ САЙТА (/css/…, /assets/…).
+       Страница лежит в подпапке, и относительный путь «css/…» искал бы
+       файл в /srochnyj-vyezd-advokata/css/. Кроме того, адрес без слэша
+       на конце сломал бы относительные пути ещё раз, по-другому. -->
+
+  <!-- ===== SEO: title, description и H1 — дословно от клиента ===== -->
+  <title>Срочный выезд адвоката в Москве | Адвокат Сергей Иванцов</title>
+  <meta name="description" content="Срочный выезд адвоката в Москве при задержании, обыске и допросе. Более 20 лет юридической практики. Телефон, Telegram и WhatsApp.">
+
+  <link rel="canonical" href="https://advokativantsov.ru/srochnyj-vyezd-advokata/">
+
+  <!-- Open Graph. Картинка та же, что у главной: на ней реальная фотография
+       адвоката. Ширина и высота — настоящие, снятые из файла. -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://advokativantsov.ru/srochnyj-vyezd-advokata/">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Адвокат Иванцов Сергей Анатольевич">
+  <meta property="og:title" content="Срочный выезд адвоката в Москве | Адвокат Сергей Иванцов">
+  <meta property="og:description" content="Срочный выезд адвоката в Москве при задержании, обыске и допросе. Более 20 лет юридической практики. Телефон, Telegram и WhatsApp.">
+  <meta property="og:image" content="https://advokativantsov.ru/assets/img/og-cover.jpg">
+  <meta property="og:image:secure_url" content="https://advokativantsov.ru/assets/img/og-cover.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1610">
+  <meta property="og:image:height" content="977">
+  <meta property="og:image:alt" content="Адвокат по уголовным делам Иванцов Сергей Анатольевич, Москва">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Срочный выезд адвоката в Москве | Адвокат Сергей Иванцов">
+  <meta name="twitter:description" content="Срочный выезд адвоката в Москве при задержании, обыске и допросе. Более 20 лет юридической практики. Телефон, Telegram и WhatsApp.">
+  <meta name="twitter:image" content="https://advokativantsov.ru/assets/img/og-cover.jpg">
+  <meta name="twitter:image:alt" content="Адвокат по уголовным делам Иванцов Сергей Анатольевич, Москва">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/ivantsov-preview/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/ivantsov-preview/assets/img/favicon.svg">
+
+  <!-- Те же файлы, что у главной: отдельных стилей и скриптов у страницы
+       нет. Версию v= менять синхронно с главной. -->
+  <link rel="preload" href="/ivantsov-preview/assets/fonts/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/ivantsov-preview/css/style.min.css?v=76">
+  <!-- Класс js — в <head>, до разбора <body>: см. комментарий на главной -->
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="/ivantsov-preview/js/main.min.js?v=74" defer></script>
+
+  <!-- ===== Schema.org: страница, крошки, вопросы, услуга =====
+       Данные адвоката здесь не повторяются: about и provider ссылаются на
+       описание Attorney с главной по его @id. Менять их — только на главной.
+       Вопросы и ответы обязаны совпадать с блоком «Частые вопросы» на странице.
+       Услуга: LegalService — разновидность организации, поля provider и offers
+       у неё не определены, поэтому второй тип Service: без него валидатор
+       schema.org выдаёт ошибки на эти поля. -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://advokativantsov.ru/srochnyj-vyezd-advokata/#webpage",
+        "url": "https://advokativantsov.ru/srochnyj-vyezd-advokata/",
+        "name": "Срочный выезд адвоката в Москве | Адвокат Сергей Иванцов",
+        "description": "Срочный выезд адвоката в Москве при задержании, обыске и допросе. Более 20 лет юридической практики. Телефон, Telegram и WhatsApp.",
+        "inLanguage": "ru",
+        "about": { "@id": "https://advokativantsov.ru/#attorney" },
+        "breadcrumb": { "@id": "https://advokativantsov.ru/srochnyj-vyezd-advokata/#breadcrumb" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://advokativantsov.ru/srochnyj-vyezd-advokata/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://advokativantsov.ru/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Срочный выезд адвоката в Москве",
+            "item": "https://advokativantsov.ru/srochnyj-vyezd-advokata/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://advokativantsov.ru/srochnyj-vyezd-advokata/#faq",
+        "url": "https://advokativantsov.ru/srochnyj-vyezd-advokata/",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Может ли родственник пригласить адвоката для задержанного?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Да, родственник или другое заинтересованное лицо может обратиться к адвокату. Возможность допуска и дальнейшего участия определяется с учётом процессуального статуса человека и установленных законом правил."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Что делать, если обыск уже начался?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Можно связаться с адвокатом и сообщить адрес, наименование органа и известные обстоятельства. Не следует препятствовать законным действиям сотрудников. Прибывший адвокат реализует предусмотренные законом полномочия с учётом стадии процессуального действия."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Можно ли вызвать адвоката на допрос свидетеля?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Да. Свидетель вправе явиться на допрос с адвокатом, приглашённым для оказания юридической помощи."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Гарантируется ли немедленное прибытие?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Возможность и время выезда подтверждаются после получения адреса и оценки обстоятельств."
+            }
+          }
+        ]
+      },
+      {
+        "@type": ["LegalService", "Service"],
+        "@id": "https://advokativantsov.ru/srochnyj-vyezd-advokata/#service",
+        "name": "Срочный выезд адвоката в Москве",
+        "url": "https://advokativantsov.ru/srochnyj-vyezd-advokata/",
+        "areaServed": "Москва",
+        "description": "Юридическая помощь при задержании, обыске, допросе и других неотложных процессуальных действиях.",
+        "provider": { "@id": "https://advokativantsov.ru/#attorney" },
+        "offers": {
+          "@type": "Offer",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "minPrice": 35000,
+            "priceCurrency": "RUB"
+          }
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<!-- data-page — имя страницы для заявки и цели form_submit_success
+     (см. PAGE_ID в js/main.js). Только латиница и дефис. -->
+<body data-page="srochnyj-vyezd">
+<a class="skip-link" href="#top">Перейти к содержанию</a>
+
+<!-- ============================= ШАПКА =============================
+     Как на главной, но пункты меню ведут на секции главной: на этой
+     странице их нет. Цель у телефона своя, чтобы звонок отсюда не
+     засчитывался главной. -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a class="header__brand" href="/ivantsov-preview/">
+      <span class="header__brand-name">Иванцов С.&nbsp;А.</span>
+      <span class="header__brand-role">адвокат · Москва</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Разделы сайта">
+      <a class="nav__link" href="/ivantsov-preview/#criminal">Уголовная защита</a>
+      <a class="nav__link" href="/ivantsov-preview/#business">Дела предпринимателей</a>
+      <a class="nav__link" href="/ivantsov-preview/#victim">Представительство потерпевших</a>
+      <a class="nav__link" href="/ivantsov-preview/#about">Почему мне доверяют</a>
+      <a class="nav__link" href="/ivantsov-preview/#contacts">Контакты</a>
+    </nav>
+
+    <a class="btn btn--ghost header__phone" href="tel:+79260730999" data-site="phone-link" data-goal="phone_vyezd_header"><span data-site="phone-text">+7 (926) 073-09-99</span></a>
+
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================= ПЕРВЫЙ ЭКРАН =============================
+       Компонент и кадр с главной: новых тяжёлых картинок нет. В отличие от
+       главной, у кадра есть ALT (задан клиентом), поэтому aria-hidden снят.
+       Режим работы и сроки прибытия на этой странице не упоминать —
+       прямое указание клиента. -->
+  <section class="hero theme-dark" aria-labelledby="vyezd-title">
+    <div class="hero__backdrop" aria-hidden="true"></div>
+
+    <div class="hero__figure">
+      <div class="hero__parallax">
+        <img class="hero__portrait" src="/ivantsov-preview/assets/img/hero-library.webp?v=1"
+             alt="Адвокат Сергей Иванцов — срочный выезд в Москве" width="852" height="1280" fetchpriority="high">
+      </div>
+    </div>
+
+    <div class="container hero__content">
+      <nav class="vyezd-crumbs" aria-label="Навигационная цепочка">
+        <ol class="vyezd-crumbs__list" role="list">
+          <li><a href="/ivantsov-preview/">Главная</a></li>
+          <li aria-current="page">Срочный выезд адвоката в Москве</li>
+        </ol>
+      </nav>
+
+      <!-- H1 на странице один — этот -->
+      <h1 class="hero__title vyezd-title" id="vyezd-title">Срочный выезд адвоката в Москве</h1>
+
+      <p class="hero__subtitle">Юридическая помощь при&nbsp;задержании, обыске, допросе и&nbsp;других неотложных процессуальных действиях. Возможность и&nbsp;время выезда согласовываются после уточнения обстоятельств и&nbsp;адреса.</p>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="tel:+79260730999" data-site="phone-link" data-goal="phone_vyezd_hero">Позвонить адвокату</a>
+        <a class="btn btn--ghost" href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_vyezd_hero">Написать в Telegram</a>
+        <a class="btn btn--ghost" href="https://wa.me/79260730999" target="_blank" rel="noopener" data-site="whatsapp-link" data-goal="whatsapp_vyezd_hero">Написать в WhatsApp</a>
+      </div>
+
+      <p class="hero__alt vyezd-hero-note">Адвокат Сергей Иванцов. Более 20&nbsp;лет юридической практики. Личное участие, конфиденциальность и&nbsp;предварительная оценка ситуации.</p>
+    </div>
+  </section>
+
+  <!-- ============================= 1. КОГДА МОЖЕТ ПОТРЕБОВАТЬСЯ ============================= -->
+  <section class="section theme-light" id="vyezd-when">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 01</p>
+      <div class="split split--narrow">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Когда может потребоваться срочный выезд адвоката</h2>
+          <p data-reveal>Правовая помощь особенно важна в&nbsp;первые часы после задержания или начала следственного действия. Именно в&nbsp;этот период оформляются первоначальные документы, изымаются предметы и&nbsp;носители информации, даются первые объяснения и&nbsp;принимаются решения, способные повлиять на&nbsp;дальнейшее развитие дела.</p>
+          <p data-reveal>Срочный выезд адвоката может потребоваться:</p>
+          <ul class="check-list" role="list" data-reveal-group>
+            <li data-reveal>при фактическом задержании или доставлении в&nbsp;отдел полиции либо следственный орган;</li>
+            <li data-reveal>при проведении обыска в&nbsp;жилище, офисе или другом помещении;</li>
+            <li data-reveal>при вызове на&nbsp;допрос в&nbsp;качестве свидетеля, подозреваемого или обвиняемого;</li>
+            <li data-reveal>при проведении осмотра, выемки и&nbsp;иных процессуальных действий;</li>
+            <li data-reveal>при необходимости посещения задержанного в&nbsp;ИВС;</li>
+            <li data-reveal>если родственникам неизвестны местонахождение человека и&nbsp;его процессуальный статус.</li>
+          </ul>
+          <p data-reveal>Если вы не&nbsp;уверены, требуется ли немедленный выезд, сообщите обстоятельства по&nbsp;телефону. После уточнения ситуации я&nbsp;объясню возможный порядок действий и&nbsp;подтвержу возможность выезда.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= 2. ЧТО ДЕЛАЕТ АДВОКАТ ============================= -->
+  <section class="section theme-dark" id="vyezd-does">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 02</p>
+      <div class="split split--narrow">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Что делает адвокат при срочном выезде</h2>
+          <p data-reveal>Объём помощи зависит от&nbsp;процессуального статуса доверителя и&nbsp;характера проводимого действия. В&nbsp;зависимости от&nbsp;ситуации адвокат:</p>
+          <ul class="check-list" role="list" data-reveal-group>
+            <li data-reveal>выясняет основания задержания и&nbsp;процессуальный статус человека;</li>
+            <li data-reveal>консультирует доверителя до&nbsp;начала допроса или другого действия;</li>
+            <li data-reveal>присутствует при проведении процессуальных действий в&nbsp;предусмотренных законом случаях;</li>
+            <li data-reveal>следит за&nbsp;соблюдением прав доверителя и&nbsp;установленного порядка;</li>
+            <li data-reveal>обращает внимание на&nbsp;содержание протоколов и&nbsp;иных документов;</li>
+            <li data-reveal>заявляет ходатайства, замечания и&nbsp;возражения при наличии оснований;</li>
+            <li data-reveal>фиксирует обстоятельства, имеющие значение для дальнейшей защиты;</li>
+            <li data-reveal>разъясняет родственникам дальнейший порядок действий.</li>
+          </ul>
+          <p data-reveal>Каждая ситуация оценивается индивидуально. Сам по&nbsp;себе выезд адвоката не&nbsp;означает обещания определённого процессуального результата.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= 3. КАК ВЫЗВАТЬ АДВОКАТА ============================= -->
+  <section class="section theme-paper" id="vyezd-how">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 03</p>
+      <div class="split split--narrow">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Как вызвать адвоката</h2>
+          <p data-reveal>Для предварительной оценки ситуации необходимо сообщить:</p>
+          <ul class="check-list" role="list" data-reveal-group>
+            <li data-reveal>имя и&nbsp;фамилию человека, которому требуется помощь;</li>
+            <li data-reveal>что произошло и&nbsp;когда;</li>
+            <li data-reveal>адрес или предполагаемое место нахождения;</li>
+            <li data-reveal>какой орган проводит задержание или следственное действие;</li>
+            <li data-reveal>известный процессуальный статус;</li>
+            <li data-reveal>контакт родственника или иного лица для оперативной связи.</li>
+          </ul>
+          <p data-reveal>Если каких-либо сведений пока нет, это не&nbsp;препятствует обращению. Передайте ту информацию, которой располагаете на&nbsp;момент звонка.</p>
+          <div class="vyezd-actions" data-reveal>
+            <a class="btn btn--primary" href="tel:+79260730999" data-site="phone-link" data-goal="phone_vyezd_how">Позвонить адвокату</a>
+            <a class="btn btn--ghost" href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_vyezd_how">Написать в Telegram</a>
+            <a class="btn btn--ghost" href="https://wa.me/79260730999" target="_blank" rel="noopener" data-site="whatsapp-link" data-goal="whatsapp_vyezd_how">Написать в WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= 4. ПРАВО НА ПОМОЩЬ АДВОКАТА ============================= -->
+  <section class="section theme-light" id="vyezd-right">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 04</p>
+      <div class="split split--narrow">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Право на&nbsp;помощь адвоката</h2>
+          <p data-reveal>Каждому гарантируется право на&nbsp;получение квалифицированной юридической помощи. Задержанный вправе пользоваться помощью адвоката с&nbsp;момента фактического задержания.</p>
+          <p data-reveal>При производстве обыска вправе присутствовать защитник, а&nbsp;также адвокат лица, в&nbsp;помещении которого проводится обыск. Свидетель также вправе явиться на&nbsp;допрос с&nbsp;приглашённым им адвокатом.</p>
+          <p data-reveal>Конкретный объём полномочий адвоката определяется процессуальным статусом доверителя, видом проводимого действия и&nbsp;обстоятельствами дела.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= 5. ПОЧЕМУ ВАЖНО СВОЕВРЕМЕННО =============================
+       Кадр за рабочим столом — тот же файл, что в «Уголовной защите» на главной -->
+  <section class="section theme-dark" id="vyezd-timely">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 05</p>
+      <div class="split">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Почему важно обратиться за&nbsp;помощью своевременно</h2>
+          <p data-reveal>Первые объяснения и&nbsp;документы могут иметь значение для дальнейшего расследования. В&nbsp;стрессовой ситуации человек нередко неточно формулирует обстоятельства, подписывает документы, не&nbsp;проверив их&nbsp;содержание, или не&nbsp;обращает внимания на&nbsp;процессуальные нарушения.</p>
+          <p data-reveal>Участие адвоката позволяет получить правовую консультацию, определить процессуальную позицию и&nbsp;проверить содержание составляемых документов. Однако универсального алгоритма для всех дел не&nbsp;существует: рекомендации должны основываться на&nbsp;конкретных обстоятельствах.</p>
+        </div>
+
+        <figure class="split__media" data-reveal>
+          <img class="dissolve-img" src="/ivantsov-preview/assets/img/criminal-desk.webp?v=1"
+               alt="Консультация адвоката по уголовному делу в Москве" width="1280" height="853" loading="lazy">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= 6. ОБ АДВОКАТЕ ============================= -->
+  <section class="section theme-paper" id="vyezd-about">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 06</p>
+      <div class="split split--narrow">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Об адвокате</h2>
+          <p data-reveal>Сергей Анатольевич Иванцов&nbsp;— адвокат с&nbsp;юридическим стажем более 20&nbsp;лет. Основное направление практики&nbsp;— защита по&nbsp;уголовным делам, включая экономические и&nbsp;должностные преступления, дела о&nbsp;мошенничестве, налоговые преступления и&nbsp;другие категории уголовных дел.</p>
+          <p data-reveal>Работа строится на&nbsp;личном участии адвоката, анализе документов, конфиденциальности и&nbsp;последовательной защите прав доверителя.</p>
+          <p class="vyezd-more" data-reveal><a href="/ivantsov-preview/#services">Другие направления юридической помощи</a></p>
+          <!-- Связанная страница (ТЗ № 2, раздел V, п. 2): абзац выше
+               называет дела о мошенничестве -->
+          <p class="vyezd-more" data-reveal><a href="/ivantsov-preview/advokat-po-moshennichestvu/" data-goal="link_moshennichestvo_from_vyezd">Адвокат по мошенничеству в&nbsp;Москве</a></p>
+          <!-- Связанная страница (ТЗ docs/tz-228.md, IV.2, п. 7): абзац выше
+               называет «другие категории уголовных дел» -->
+          <p class="vyezd-more" data-reveal><a href="/ivantsov-preview/advokat-po-228/" data-goal="link_po228_from_vyezd">Адвокат по статьям 228 и&nbsp;228.1 УК&nbsp;РФ в&nbsp;Москве</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= 7. СТОИМОСТЬ ============================= -->
+  <section class="section theme-light" id="vyezd-price">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 07</p>
+      <div class="split split--narrow">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Стоимость срочного выезда</h2>
+          <p data-reveal>Стоимость срочного выезда адвоката в&nbsp;Москве&nbsp;— <span class="price__value">от&nbsp;35&nbsp;000&nbsp;₽</span>. Окончательная стоимость определяется после уточнения адреса, обстоятельств, процессуального статуса доверителя, времени выезда и&nbsp;предполагаемого объёма работы. До&nbsp;заключения соглашения сообщаются условия оказания юридической помощи и&nbsp;связанные с&nbsp;выездом расходы.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= 8. ЧАСТЫЕ ВОПРОСЫ =============================
+       Тот же аккордеон, что в FAQ главной: на главной это кнопка в <h3>,
+       а не <details>. H3 у каждого вопроса есть, панель без JS раскрыта. -->
+  <section class="section theme-paper" id="vyezd-faq">
+    <div class="container container--narrow">
+      <p class="sheet-label" data-reveal>лист 08 · вопросы</p>
+      <h2 class="section__title" data-reveal>Частые вопросы</h2>
+
+      <div class="accordion accordion--lines" data-reveal-group>
+        <article class="acc" data-reveal>
+          <h3 class="acc__heading">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="vyezd-faq-panel-1" id="vyezd-faq-head-1">
+              <span class="acc__title">Может ли родственник пригласить адвоката для задержанного?</span>
+              <span class="acc__marker" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="vyezd-faq-panel-1" role="region" aria-labelledby="vyezd-faq-head-1">
+            <div class="acc__body">
+              <p>Да, родственник или другое заинтересованное лицо может обратиться к&nbsp;адвокату. Возможность допуска и&nbsp;дальнейшего участия определяется с&nbsp;учётом процессуального статуса человека и&nbsp;установленных законом правил.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="acc" data-reveal>
+          <h3 class="acc__heading">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="vyezd-faq-panel-2" id="vyezd-faq-head-2">
+              <span class="acc__title">Что делать, если обыск уже начался?</span>
+              <span class="acc__marker" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="vyezd-faq-panel-2" role="region" aria-labelledby="vyezd-faq-head-2">
+            <div class="acc__body">
+              <p>Можно связаться с&nbsp;адвокатом и&nbsp;сообщить адрес, наименование органа и&nbsp;известные обстоятельства. Не&nbsp;следует препятствовать законным действиям сотрудников. Прибывший адвокат реализует предусмотренные законом полномочия с&nbsp;учётом стадии процессуального действия.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="acc" data-reveal>
+          <h3 class="acc__heading">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="vyezd-faq-panel-3" id="vyezd-faq-head-3">
+              <span class="acc__title">Можно ли вызвать адвоката на&nbsp;допрос свидетеля?</span>
+              <span class="acc__marker" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="vyezd-faq-panel-3" role="region" aria-labelledby="vyezd-faq-head-3">
+            <div class="acc__body">
+              <p>Да. Свидетель вправе явиться на&nbsp;допрос с&nbsp;адвокатом, приглашённым для оказания юридической помощи.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Опубликовано только первое предложение ответа. Второе в тексте
+             клиента — указание разработчику, не для посетителя. -->
+        <article class="acc" data-reveal>
+          <h3 class="acc__heading">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="vyezd-faq-panel-4" id="vyezd-faq-head-4">
+              <span class="acc__title">Гарантируется ли немедленное прибытие?</span>
+              <span class="acc__marker" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="vyezd-faq-panel-4" role="region" aria-labelledby="vyezd-faq-head-4">
+            <div class="acc__body">
+              <p>Возможность и&nbsp;время выезда подтверждаются после получения адреса и&nbsp;оценки обстоятельств.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= 9. НУЖНА СРОЧНАЯ ПОМОЩЬ ============================= -->
+  <section class="section theme-light vyezd-help" id="vyezd-help">
+    <div class="container">
+      <div class="urgent__grid">
+        <div class="urgent__text" data-reveal>
+          <h2 class="section__title">Нужна срочная юридическая помощь?</h2>
+          <p class="urgent__desc">Позвоните или направьте краткое сообщение: что произошло, где находится человек и&nbsp;какой орган проводит процессуальное действие. После уточнения обстоятельств я&nbsp;сообщу о&nbsp;возможности выезда и&nbsp;дальнейших действиях.</p>
+        </div>
+        <div class="urgent__actions" data-reveal>
+          <a class="btn btn--primary btn--wide" href="tel:+79260730999" data-site="phone-link" data-goal="phone_vyezd_cta">Позвонить адвокату</a>
+          <a class="btn btn--ghost btn--wide" href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_vyezd_cta">Написать в Telegram</a>
+          <a class="btn btn--ghost btn--wide" href="https://wa.me/79260730999" target="_blank" rel="noopener" data-site="whatsapp-link" data-goal="whatsapp_vyezd_cta">Написать в WhatsApp</a>
+          <p class="cta__alt">Адвокат Сергей Иванцов · Москва · Конфиденциальность обращения</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= 10. ФОРМА ЗАЯВКИ =============================
+       Тот же компонент #lead-form, что на главной: токен, поле-ловушка,
+       согласие отдельной галкой, ссылка на /policy/. id полей менять нельзя:
+       по ним форму находит js/main.js. ym-hide-content и ym-disable-keys
+       закрывают ввод от Вебвизора — см. главную и политику, раздел 7.
+       Поля «Как удобнее связаться» здесь нет: клиент перечислил состав формы
+       без него. Скрипт и lead.php в этом случае считают, что нужен звонок. -->
+  <section class="section urgent theme-dark vyezd-lead" id="vyezd-lead">
+    <div class="container">
+      <form class="lead ym-hide-content ym-disable-keys" id="lead-form" novalidate data-reveal>
+        <h3 class="lead__title">Оставить заявку</h3>
+        <p class="lead__lead">Достаточно имени и&nbsp;телефона — перезвоню сам.</p>
+
+        <!-- Поле-ловушка для ботов: уведено за край экрана, скрыто от
+             экранных дикторов и пропущено при обходе клавишей Tab -->
+        <div class="lead__trap" aria-hidden="true">
+          <label for="lead-hp-url">Не заполняйте это поле</label>
+          <input id="lead-hp-url" name="hp_url" type="text" tabindex="-1" autocomplete="off">
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="lead-name">Имя</label>
+          <input class="field__input ym-disable-keys ym-hide-content" id="lead-name" name="name" type="text"
+                 autocomplete="given-name" required maxlength="60"
+                 aria-describedby="lead-name-error">
+          <p class="field__error" id="lead-name-error" hidden>Укажите, как к вам обращаться</p>
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="lead-phone">Телефон</label>
+          <input class="field__input ym-disable-keys ym-hide-content" id="lead-phone" name="phone" type="tel"
+                 inputmode="tel" autocomplete="tel" required
+                 placeholder="+7 (___) ___-__-__"
+                 aria-describedby="lead-phone-error">
+          <p class="field__error" id="lead-phone-error" hidden>Введите номер полностью</p>
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="lead-message">Кратко опишите ситуацию <span class="field__optional">— необязательно</span></label>
+          <textarea class="field__input field__input--area ym-disable-keys ym-hide-content" id="lead-message" name="message"
+                    rows="3" maxlength="600" aria-describedby="lead-message-hint"></textarea>
+          <p class="field__hint" id="lead-message-hint">Для первоначальной связи достаточно кратко обозначить вопрос. Пожалуйста, не&nbsp;указывайте сведения о&nbsp;здоровье, частной жизни, третьих лицах и&nbsp;другие конфиденциальные подробности. Их&nbsp;можно обсудить непосредственно с&nbsp;адвокатом после установления контакта.</p>
+        </div>
+
+        <!-- Согласие на обработку ПДн — отдельным действием (ст. 9 152-ФЗ
+             в редакции с 01.09.2025), текст согласия — /soglasie/.
+             Политика — отдельной строкой ниже -->
+        <label class="consent">
+          <input class="consent__box ym-disable-keys ym-hide-content" id="lead-consent" name="consent" type="checkbox" required>
+          <span class="consent__text">Я даю <a href="/ivantsov-preview/soglasie/" target="_blank" rel="noopener">согласие на&nbsp;обработку моих персональных данных</a></span>
+        </label>
+
+        <p class="consent__policy">Отправляя заявку, вы&nbsp;подтверждаете, что ознакомлены с&nbsp;<a href="/ivantsov-preview/policy/" target="_blank" rel="noopener">политикой конфиденциальности</a>.</p>
+
+        <button class="btn btn--primary btn--wide lead__submit" id="lead-submit" type="submit" disabled aria-describedby="lead-consent-hint">Отправить заявку</button>
+        <p class="field__hint" id="lead-consent-hint">Чтобы отправить заявку, отметьте согласие на&nbsp;обработку персональных данных.</p>
+
+        <p class="lead__status" id="lead-status" role="status" aria-live="polite" hidden></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================= 11. КОНТАКТЫ =============================
+       Секция с главной. Отличия: цели data-goal с суффиксом _vyezd_, форма
+       вынесена выше отдельной секцией, убрана строка о режиме выезда. -->
+  <section class="section theme-dark" id="contacts">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 09 · контакты</p>
+      <h2 class="section__title" data-reveal>Контакты</h2>
+
+      <div class="contacts">
+        <div class="contacts__info" data-reveal>
+          <dl class="contacts__list">
+            <div class="contacts__row">
+              <dt>Адрес</dt>
+              <dd>Москва, Мясницкая улица, 24/7с1, подъезд&nbsp;6, этаж&nbsp;5, офис&nbsp;67</dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Телефон</dt>
+              <dd><a class="contacts__link" href="tel:+79260730999" data-site="phone-link" data-goal="phone_vyezd_contacts"><span data-site="phone-text">+7 (926) 073-09-99</span></a></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Telegram</dt>
+              <dd><a class="contacts__link" href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_vyezd_contacts"><span data-site="telegram-text">@advokat_ivantsov</span></a></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>WhatsApp</dt>
+              <dd><a class="contacts__link" href="https://wa.me/79260730999" target="_blank" rel="noopener" data-site="whatsapp-link" data-goal="whatsapp_vyezd_contacts">Написать в&nbsp;WhatsApp</a></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Почта</dt>
+              <dd><a class="contacts__link" href="mailto:law@advokativantsov.ru" data-site="email-link" data-goal="email_vyezd_contacts"><span data-site="email-text">law@advokativantsov.ru</span></a></dd>
+            </div>
+          </dl>
+
+          <div class="contacts__actions">
+            <a class="btn btn--primary btn--wide" href="tel:+79260730999" data-site="phone-link" data-goal="phone_vyezd_contacts">Позвонить</a>
+            <a class="btn btn--ghost btn--wide" href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_vyezd_contacts">Написать в Telegram</a>
+            <a class="btn btn--ghost btn--wide" href="https://wa.me/79260730999" target="_blank" rel="noopener" data-site="whatsapp-link" data-goal="whatsapp_vyezd_contacts">Написать в WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Карта, как на главной: только по кнопке «Показать карту», до неё
+             сайт к Яндексу не обращается (раздел 7 политики) -->
+        <div class="contacts__map" data-reveal>
+          <div class="widget-gate widget-gate--map"
+               data-src="https://yandex.ru/map-widget/v1/?ol=biz&oid=156938785011&z=16"
+               data-title="Офис адвоката Иванцова: Москва, Мясницкая улица, 24/7с1 — на карте"
+               data-frame-class="map__frame" data-fullscreen>
+            <p class="widget-gate__address">Москва, Мясницкая улица, 24/7с1, подъезд&nbsp;6, этаж&nbsp;5, офис&nbsp;67</p>
+            <button class="btn btn--ghost widget-gate__show" type="button" data-widget-show data-goal="map_show" data-goal-page>Показать карту</button>
+            <a class="widget-gate__link" href="https://yandex.ru/maps/org/advokat_ivantsov_s_a_/156938785011" target="_blank" rel="noopener" data-goal="map_open" data-goal-page>Открыть в&nbsp;Яндекс Картах</a>
+          </div>
+          <p class="map__hint">Мясницкая, 24/7с1 — 5 минут пешком от метро «Чистые пруды» и&nbsp;«Тургеневская»</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================= ПОДВАЛ =============================
+     Как на главной; разделы ведут на секции главной -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="footer__name">Адвокат Иванцов Сергей Анатольевич · АП города Москвы · рег. № 77/16961</p>
+    <nav class="footer__nav" aria-label="Разделы сайта">
+      <a href="/ivantsov-preview/#criminal">Уголовная защита</a>
+      <a href="/ivantsov-preview/#business">Уголовные дела в сфере предпринимательской деятельности</a>
+      <a href="/ivantsov-preview/#victim">Представительство потерпевших</a>
+      <a href="/ivantsov-preview/#about">Почему мне доверяют</a>
+      <a href="/ivantsov-preview/#consultation">Консультации и стоимость</a>
+      <a href="/ivantsov-preview/#contacts">Контакты</a>
+      <a href="/ivantsov-preview/srochnyj-vyezd-advokata/" aria-current="page">Срочный выезд адвоката в Москве</a>
+      <a href="/ivantsov-preview/advokat-po-moshennichestvu/" data-goal="link_moshennichestvo_from_vyezd">Адвокат по мошенничеству в Москве</a>
+      <a href="/ivantsov-preview/advokat-po-228/" data-goal="link_po228_from_vyezd">Адвокат по статьям 228 и 228.1 УК РФ в Москве</a>
+    </nav>
+    <p class="footer__note">Информация на сайте не является публичной офертой.</p>
+    <nav class="footer__links" aria-label="Внешние площадки">
+      <a href="https://profi.ru/profile/IvantsovSA4" target="_blank" rel="noopener">Профи.ру</a>
+      <a href="https://yandex.ru/maps/org/advokat_ivantsov_s_a_/156938785011" target="_blank" rel="noopener">Яндекс Карты</a>
+      <a href="https://harant.ru/lawyers/moskva/ivanczov-sergej-anatolevich/" target="_blank" rel="noopener">HARANT</a>
+      <a href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_vyezd_footer">Telegram</a>
+    </nav>
+    <nav class="footer__legal" aria-label="Правовая информация">
+      <a href="/ivantsov-preview/policy/" target="_blank" rel="noopener">Политика конфиденциальности</a>
+      <button class="footer__legal-btn" type="button" id="cookie-settings" hidden>Настройки cookie</button>
+    </nav>
+  </div>
+</footer>
+
+<!-- ============================= МОБИЛЬНАЯ ПАНЕЛЬ СВЯЗИ =============================
+     Как на главной (ТЗ сайта, п. 8.1), цели — с суффиксом _vyezd_ -->
+<div class="mobile-bar" id="mobile-bar" aria-label="Быстрая связь">
+  <a class="mobile-bar__btn mobile-bar__btn--call" href="tel:+79260730999" data-site="phone-link" data-goal="phone_vyezd_mobile_panel">Позвонить</a>
+  <a class="mobile-bar__btn" href="https://wa.me/79260730999" target="_blank" rel="noopener" data-site="whatsapp-link" data-goal="whatsapp_vyezd_mobile_panel">WhatsApp</a>
+  <a class="mobile-bar__btn" href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_vyezd_mobile_panel">Telegram</a>
+  <a class="mobile-bar__btn" href="#lead-form" data-goal="lead_vyezd">Заявка</a>
+</div>
+
+<!-- ============================= COOKIE-УВЕДОМЛЕНИЕ =============================
+     Копия плашки с главной. Выбор общий для всего сайта (localStorage),
+     поэтому на этой странице плашка появится, только если человек
+     ещё нигде на сайте не ответил. -->
+<div class="cookie" id="cookie-banner" role="dialog" aria-modal="false"
+     aria-labelledby="cookie-title" aria-describedby="cookie-text" tabindex="-1" hidden>
+  <div class="container cookie__inner">
+    <div class="cookie__body">
+      <h2 class="cookie__title" id="cookie-title">Файлы cookie</h2>
+      <p class="cookie__text" id="cookie-text">Яндекс&nbsp;Метрика помогает нам понять посещаемость сайта и&nbsp;эффективность рекламы. Её&nbsp;файлы cookie появятся только после «Принять»&nbsp;— отказ ничего не&nbsp;ограничивает. <a href="/ivantsov-preview/policy/#cookie">Подробнее о&nbsp;cookie</a></p>
+    </div>
+    <div class="cookie__actions">
+      <button class="btn btn--primary cookie__btn" type="button" id="cookie-accept">Принять</button>
+      <button class="btn btn--primary cookie__btn" type="button" id="cookie-decline">Только необходимые</button>
+    </div>
+  </div>
+  <button class="cookie__close" type="button" id="cookie-close"
+          aria-label="Закрыть и оставить только необходимые cookie">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<!-- Пикселя Метрики без JavaScript нет намеренно — см. главную -->
+
+<!-- Раскладка до js/main.js — почему, см. конец главной -->
+<script>document.body.offsetHeight;</script>
+
+</body>
+</html>
