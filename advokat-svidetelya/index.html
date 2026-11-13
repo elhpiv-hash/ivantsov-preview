@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- Как на главной: Safari не превращает номер реестра «77/16961»
+       в ссылку на звонок. Телефоны заданы ссылками tel: -->
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- ВСЕ ПУТИ НА ЭТОЙ СТРАНИЦЕ — ОТ КОРНЯ САЙТА (/css/…, /assets/…):
+       страница лежит в подпапке. Собрана по образцу /advokat-po-228/.
+       ТЗ № 3 — docs/tz-svidetel.md. Текст раздела 3 — дословно и в том же
+       порядке; добавлены только неразрывные пробелы. Подписи «Блок N.»
+       на страницу не выводятся: названия блоков 2–7 — видимые H2
+       (у блока 1 — H1 первого экрана), подзаголовки-вопросы и вопросы
+       блока 6 — H3, три части блока 4 — H4.
+       Ничего не дописывать и не переписывать без согласования (ТЗ, раздел 8). -->
+
+  <!-- ===== SEO: title, description, H1 и canonical — дословно из ТЗ, раздел 2 ===== -->
+  <title>Адвокат свидетеля по уголовному делу в Москве | Сергей Иванцов</title>
+  <meta name="description" content="Адвокат свидетеля в Москве. Подготовка к допросу, участие адвоката при допросе у следователя, разъяснение прав свидетеля. Сергей Иванцов.">
+
+  <link rel="canonical" href="https://advokativantsov.ru/advokat-svidetelya/">
+
+  <!-- Open Graph: заголовок и описание = Title и Description.
+       Картинка — кадр первого экрана, вырезка 1200×630 без растяжения -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://advokativantsov.ru/advokat-svidetelya/">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Адвокат Иванцов Сергей Анатольевич">
+  <meta property="og:title" content="Адвокат свидетеля по уголовному делу в Москве | Сергей Иванцов">
+  <meta property="og:description" content="Адвокат свидетеля в Москве. Подготовка к допросу, участие адвоката при допросе у следователя, разъяснение прав свидетеля. Сергей Иванцов.">
+  <meta property="og:image" content="https://advokativantsov.ru/assets/img/og-svidetel.jpg">
+  <meta property="og:image:secure_url" content="https://advokativantsov.ru/assets/img/og-svidetel.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Адвокат Сергей Иванцов с папкой документов — помощь свидетелю по уголовному делу в Москве">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Адвокат свидетеля по уголовному делу в Москве | Сергей Иванцов">
+  <meta name="twitter:description" content="Адвокат свидетеля в Москве. Подготовка к допросу, участие адвоката при допросе у следователя, разъяснение прав свидетеля. Сергей Иванцов.">
+  <meta name="twitter:image" content="https://advokativantsov.ru/assets/img/og-svidetel.jpg">
+  <meta name="twitter:image:alt" content="Адвокат Сергей Иванцов с папкой документов — помощь свидетелю по уголовному делу в Москве">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/ivantsov-preview/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="/ivantsov-preview/assets/img/favicon.svg">
+
+  <!-- Те же файлы, что у главной, выезда, мошенничества и 228. Версию v= менять синхронно -->
+  <link rel="preload" href="/ivantsov-preview/assets/fonts/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/ivantsov-preview/css/style.min.css?v=80">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="/ivantsov-preview/js/main.min.js?v=75" defer></script>
+
+  <!-- ===== Schema.org =====
+       WebPage, BreadcrumbList (как видимые крошки) и FAQPage — вопросы
+       и ответы слово в слово как в блоке вопросов; ответ из нескольких
+       абзацев склеен через пробел. Цен, рейтингов и отзывов нет. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://advokativantsov.ru/advokat-svidetelya/#webpage",
+        "url": "https://advokativantsov.ru/advokat-svidetelya/",
+        "name": "Адвокат свидетеля по уголовному делу в Москве | Сергей Иванцов",
+        "description": "Адвокат свидетеля в Москве. Подготовка к допросу, участие адвоката при допросе у следователя, разъяснение прав свидетеля. Сергей Иванцов.",
+        "inLanguage": "ru",
+        "breadcrumb": {
+          "@id": "https://advokativantsov.ru/advokat-svidetelya/#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://advokativantsov.ru/advokat-svidetelya/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://advokativantsov.ru/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Адвокат свидетеля по уголовному делу в Москве",
+            "item": "https://advokativantsov.ru/advokat-svidetelya/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://advokativantsov.ru/advokat-svidetelya/#faq",
+        "url": "https://advokativantsov.ru/advokat-svidetelya/",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Обязательно ли являться на допрос?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Лицо, вызванное на допрос, обязано явиться в назначенный срок либо заранее уведомить следователя о причинах неявки. Повестка может вручаться под расписку или передаваться с помощью средств связи в порядке, предусмотренном статьёй 188 УПК РФ. При неявке без уважительных причин возможно применение предусмотренных законом мер процессуального принуждения."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Можно ли прийти на допрос со своим адвокатом?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Да. Такое право прямо предусмотрено пунктом 6 части 4 статьи 56 и частью 5 статьи 189 УПК РФ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Можно ли отказаться отвечать на вопросы следователя?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Статья 51 Конституции РФ позволяет не свидетельствовать против себя, супруга или супруги и близких родственников. В остальных случаях необходимо учитывать предусмотренные законом обязанности свидетеля и установленные исключения."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Что делать, если показания неверно отражены в протоколе?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Свидетель вправе потребовать дополнения или уточнения протокола. Адвокат может сделать письменные замечания относительно правильности и полноты записей в пределах своих процессуальных полномочий."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Сколько составляет вознаграждение адвоката?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Размер вознаграждения определяется индивидуально в зависимости от характера и объёма поручения. Консультация, подготовка к допросу и непосредственное участие адвоката в следственном действии могут составлять отдельные виды юридической помощи. Условия согласовываются при заключении соглашения об оказании юридической помощи."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<!-- data-page — имя страницы для заявки и целей form_start / form_submit_success
+     (см. PAGE_ID в js/main.js). Латиница, цифры и дефис: lead.php другое
+     не примет. В письме оно расшифровано как «адвокат свидетеля». -->
+<body data-page="svidetel">
+<a class="skip-link" href="#top">Перейти к содержанию</a>
+
+<!-- ============================= ШАПКА =============================
+     Как на странице 228. Цели — общие для страницы: phone_svidetel,
+     telegram_svidetel, whatsapp_svidetel (без разбивки по месту кнопки). -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a class="header__brand" href="/ivantsov-preview/">
+      <span class="header__brand-name">Иванцов С.&nbsp;А.</span>
+      <span class="header__brand-role">адвокат · Москва</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Разделы сайта">
+      <a class="nav__link" href="/ivantsov-preview/#criminal">Уголовная защита</a>
+      <a class="nav__link" href="/ivantsov-preview/#business">Дела предпринимателей</a>
+      <a class="nav__link" href="/ivantsov-preview/#victim">Представительство потерпевших</a>
+      <a class="nav__link" href="/ivantsov-preview/#about">Почему мне доверяют</a>
+      <a class="nav__link" href="/ivantsov-preview/#contacts">Контакты</a>
+    </nav>
+
+    <a class="btn btn--ghost header__phone" href="tel:+79260730999" data-site="phone-link" data-goal="phone_svidetel"><span data-site="phone-text">+7 (926) 073-09-99</span></a>
+
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================= БЛОК 1. ПЕРВЫЙ ЭКРАН =============================
+       Компонент первого экрана главной, выезда, мошенничества и 228.
+       Кадр — docs/photos-new/ivantsov-door-folder.jpg, только сжатие;
+       og 1200×630 — из него же. Две кнопки — как в ТЗ; «Связаться
+       с адвокатом» ведёт на звонок, как на странице 228 -->
+  <section class="hero theme-dark" aria-labelledby="svid-title">
+    <div class="hero__backdrop" aria-hidden="true"></div>
+
+    <div class="hero__figure">
+      <div class="hero__parallax">
+        <picture>
+          <source srcset="/ivantsov-preview/assets/img/svidetel-hero.webp?v=1" type="image/webp">
+          <img class="hero__portrait p228-hero__portrait" src="/ivantsov-preview/assets/img/svidetel-hero.jpg?v=1"
+               alt="Адвокат Сергей Иванцов с папкой документов — помощь свидетелю по уголовному делу в Москве" width="1254" height="1254" fetchpriority="high">
+        </picture>
+      </div>
+    </div>
+
+    <div class="container hero__content">
+      <nav class="vyezd-crumbs" aria-label="Навигационная цепочка">
+        <ol class="vyezd-crumbs__list" role="list">
+          <li><a href="/ivantsov-preview/">Главная</a></li>
+          <li aria-current="page">Адвокат свидетеля по&nbsp;уголовному делу в&nbsp;Москве</li>
+        </ol>
+      </nav>
+
+      <!-- H1 на странице один — этот -->
+      <h1 class="hero__title vyezd-title p228-title" id="svid-title">Адвокат свидетеля по&nbsp;уголовному делу в&nbsp;Москве</h1>
+
+      <p class="hero__subtitle">Подготовка к&nbsp;допросу и&nbsp;участие адвоката при допросе свидетеля.</p>
+      <p class="hero__lead">Вас вызвали на&nbsp;допрос в&nbsp;качестве свидетеля? Адвокат Сергей Иванцов оказывает юридическую помощь при подготовке к&nbsp;допросу и&nbsp;участвует в&nbsp;следственных действиях.</p>
+      <p class="hero__lead p228-hero-text">Разъясняет права свидетеля, порядок проведения допроса и&nbsp;помогает обеспечить соблюдение предусмотренных законом процессуальных гарантий.</p>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="tel:+79260730999" data-site="phone-link" data-goal="phone_svidetel">Связаться с&nbsp;адвокатом</a>
+        <a class="btn btn--ghost" href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_svidetel">Написать в Telegram</a>
+      </div>
+
+      <p class="hero__note vyezd-hero-note">Юридическая помощь по&nbsp;уголовным делам в&nbsp;Москве. Время и&nbsp;возможность участия согласовываются индивидуально.</p>
+    </div>
+  </section>
+
+  <!-- ============================= БЛОК 2. КОГДА СВИДЕТЕЛЮ НЕОБХОДИМ АДВОКАТ ============================= -->
+  <section class="section theme-light" id="svid-when">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 01</p>
+      <div class="split split--narrow">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Когда свидетелю необходим адвокат</h2>
+          <h3 class="p228-sub" data-reveal>В&nbsp;каких случаях стоит обратиться к&nbsp;адвокату?</h3>
+          <p data-reveal>Вызов в&nbsp;качестве свидетеля не&nbsp;означает предъявления обвинения. Однако показания свидетеля могут иметь существенное значение для расследования уголовного дела.</p>
+          <p data-reveal>Юридическая помощь может потребоваться, если:</p>
+          <ul class="check-list" role="list" data-reveal-group>
+            <li data-reveal>вы получили повестку о&nbsp;вызове на&nbsp;допрос;</li>
+            <li data-reveal>вопросы следователя связаны с&nbsp;вашей работой, предпринимательской деятельностью или финансовыми операциями;</li>
+            <li data-reveal>необходимо разобраться в&nbsp;своём процессуальном положении;</li>
+            <li data-reveal>вы не&nbsp;знаете, в&nbsp;каких случаях вправе отказаться от&nbsp;дачи показаний;</li>
+            <li data-reveal>возникают вопросы о&nbsp;правильности отражения показаний в&nbsp;протоколе;</li>
+            <li data-reveal>имеются основания полагать, что при проведении допроса могут быть затронуты ваши права и&nbsp;законные интересы.</li>
+          </ul>
+          <p data-reveal>Адвокат поможет разобраться в&nbsp;правовых вопросах до&nbsp;начала допроса и&nbsp;при необходимости примет участие в&nbsp;следственном действии.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= БЛОК 3. ОСНОВНЫЕ ПРАВА СВИДЕТЕЛЯ =============================
+       «Правовая основа» — отдельной строкой под текстом (.svid-basis) -->
+  <section class="section theme-paper" id="svid-rights">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 02</p>
+      <div class="split split--narrow">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Основные права свидетеля</h2>
+          <h3 class="p228-sub" data-reveal>Какие права имеет свидетель по&nbsp;уголовному делу?</h3>
+          <p data-reveal>Права свидетеля предусмотрены статьёй 56 Уголовно-процессуального кодекса&nbsp;РФ.</p>
+          <p data-reveal>В&nbsp;частности, свидетель вправе:</p>
+          <ul class="check-list" role="list" data-reveal-group>
+            <li data-reveal>не&nbsp;свидетельствовать против себя, своего супруга или супруги и&nbsp;близких родственников;</li>
+            <li data-reveal>давать показания на&nbsp;родном языке или языке, которым владеет;</li>
+            <li data-reveal>пользоваться помощью переводчика бесплатно;</li>
+            <li data-reveal>заявлять ходатайства и&nbsp;приносить жалобы в&nbsp;установленном законом порядке;</li>
+            <li data-reveal>являться на&nbsp;допрос с&nbsp;адвокатом;</li>
+            <li data-reveal>ходатайствовать о&nbsp;применении предусмотренных законом мер безопасности.</li>
+          </ul>
+          <p data-reveal>Право не&nbsp;свидетельствовать против себя и&nbsp;близких родственников закреплено также статьёй 51 Конституции&nbsp;РФ.</p>
+          <p data-reveal>При этом свидетель обязан соблюдать установленные законом процессуальные требования, в&nbsp;том числе являться по&nbsp;надлежащему вызову.</p>
+          <p data-reveal>За&nbsp;заведомо ложные показания и&nbsp;отказ от&nbsp;дачи показаний при отсутствии законных оснований уголовным законом предусмотрена ответственность.</p>
+          <p class="svid-basis" data-reveal>Правовая основа: ст.&nbsp;51 Конституции&nbsp;РФ, ст.&nbsp;56 УПК&nbsp;РФ, ст.&nbsp;307–308 УК&nbsp;РФ.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= БЛОК 4. ПОМОЩЬ АДВОКАТА ДО И ВО ВРЕМЯ ДОПРОСА =============================
+       Текст и фото рядом, на узком экране — фото под заголовком блока.
+       Фото — docs/photos-new/ivantsov-client-documents.jpg, только сжатие.
+       Три части блока — три карточки с номерами, заголовки частей — H4
+       под подзаголовком-вопросом (H3) -->
+  <section class="section theme-dark" id="svid-help">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 03</p>
+      <div class="split svid-help">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Помощь адвоката до&nbsp;и&nbsp;во&nbsp;время допроса</h2>
+          <h3 class="p228-sub" data-reveal>Какую помощь оказывает адвокат свидетелю?</h3>
+
+          <!-- Три части блока — три карточки с номерами 01–03 (правка клиента
+               13.11.2026). Номер — оформление: порядок сообщает сам <ol>.
+               Текст — дословно из ТЗ, порядок тот же -->
+          <ol class="svid-steps" role="list" data-reveal-group>
+            <li class="svid-step" data-reveal>
+              <div class="svid-step__head">
+                <span class="svid-step__num" aria-hidden="true">01</span>
+                <h4 class="svid-step__title">Подготовка к&nbsp;допросу</h4>
+              </div>
+              <p>До&nbsp;допроса адвокат изучает предоставленные документы, выясняет обстоятельства вызова, разъясняет процессуальные права и&nbsp;обязанности свидетеля.</p>
+              <p>При необходимости проводится правовой анализ обстоятельств, имеющих значение для определения процессуального положения доверителя.</p>
+            </li>
+            <li class="svid-step" data-reveal>
+              <div class="svid-step__head">
+                <span class="svid-step__num" aria-hidden="true">02</span>
+                <h4 class="svid-step__title">Участие при допросе</h4>
+              </div>
+              <p>Пункт 6 части 4 статьи 56 УПК&nbsp;РФ предусматривает право свидетеля являться на&nbsp;допрос с&nbsp;адвокатом.</p>
+              <p>В&nbsp;соответствии с&nbsp;частью 5 статьи 189 УПК&nbsp;РФ адвокат свидетеля пользуется правами, предусмотренными частью 2 статьи 53 УПК&nbsp;РФ.</p>
+              <p>В&nbsp;частности, адвокат вправе:</p>
+              <ul class="check-list" role="list">
+                <li>давать свидетелю краткие консультации в&nbsp;присутствии следователя;</li>
+                <li>с&nbsp;разрешения следователя задавать вопросы допрашиваемому лицу;</li>
+                <li>делать письменные замечания относительно правильности и&nbsp;полноты записей в&nbsp;протоколе;</li>
+                <li>по&nbsp;окончании допроса заявлять о&nbsp;нарушениях прав и&nbsp;законных интересов свидетеля.</li>
+              </ul>
+              <p>Отведённые следователем вопросы адвоката подлежат занесению в&nbsp;протокол. Заявления адвоката о&nbsp;нарушениях прав и&nbsp;законных интересов свидетеля также заносятся в&nbsp;протокол допроса.</p>
+            </li>
+            <li class="svid-step" data-reveal>
+              <div class="svid-step__head">
+                <span class="svid-step__num" aria-hidden="true">03</span>
+                <h4 class="svid-step__title">Проверка протокола</h4>
+              </div>
+              <p>После завершения допроса свидетель вправе ознакомиться с&nbsp;протоколом и&nbsp;потребовать его дополнения или уточнения.</p>
+              <p>Согласно части 6 статьи 190 УПК&nbsp;РФ такое ходатайство подлежит обязательному удовлетворению.</p>
+              <p>Адвокат обращает внимание на&nbsp;полноту и&nbsp;правильность процессуального оформления показаний.</p>
+            </li>
+          </ol>
+          <!-- Последняя строка блока: вывод об объёме полномочий — под карточками -->
+          <p class="svid-steps-note" data-reveal>Объём полномочий адвоката свидетеля определяется законом и&nbsp;отличается от&nbsp;полномочий защитника подозреваемого или обвиняемого.</p>
+        </div>
+
+        <figure class="split__media svid-help__media" data-reveal>
+          <picture>
+            <source srcset="/ivantsov-preview/assets/img/svidetel-photo.webp?v=1" type="image/webp">
+            <img src="/ivantsov-preview/assets/img/svidetel-photo.jpg?v=1"
+                 alt="Адвокат Сергей Иванцов за рабочим столом с документами — подготовка к допросу свидетеля" width="852" height="1280" loading="lazy" decoding="async">
+          </picture>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= БЛОК 5. МОЖЕТ ЛИ СВИДЕТЕЛЬ СТАТЬ ПОДОЗРЕВАЕМЫМ? ============================= -->
+  <section class="section theme-light" id="svid-status">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 04</p>
+      <div class="split split--narrow">
+        <div class="split__text vyezd-body">
+          <h2 class="section__title" data-reveal>Может ли свидетель стать подозреваемым?</h2>
+          <h3 class="p228-sub" data-reveal>Может ли измениться процессуальное положение свидетеля?</h3>
+          <p data-reveal>Да. При наличии предусмотренных законом оснований процессуальное положение лица может измениться.</p>
+          <p data-reveal>Сам по&nbsp;себе вызов в&nbsp;качестве свидетеля не&nbsp;означает осуществления уголовного преследования.</p>
+          <p data-reveal>Вместе с&nbsp;тем при оценке права на&nbsp;квалифицированную юридическую помощь значение имеет не&nbsp;только формальное процессуальное положение лица, но&nbsp;и&nbsp;фактический характер осуществляемых в&nbsp;отношении него действий.</p>
+          <p data-reveal>Эта правовая позиция отражена в&nbsp;Постановлении Конституционного Суда&nbsp;РФ от&nbsp;27.06.2000 №&nbsp;11-П.</p>
+          <p data-reveal>Если возникают вопросы о&nbsp;процессуальном положении, целесообразно своевременно обратиться за&nbsp;юридической консультацией.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= БЛОК 6. ЧАСТЫЕ ВОПРОСЫ =============================
+       Раскрывающиеся вопросы — аккордеон сайта, как на странице 228:
+       кнопка в заголовке H3, без JS панели раскрыты.
+       Текст обязан совпадать с FAQPage в <head> -->
+  <section class="section theme-paper" id="svid-faq">
+    <div class="container container--narrow">
+      <p class="sheet-label" data-reveal>лист 05 · вопросы</p>
+      <h2 class="section__title" data-reveal>Частые вопросы</h2>
+
+      <div class="accordion accordion--lines" data-reveal-group>
+        <article class="acc" data-reveal>
+          <h3 class="acc__heading">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="svid-faq-panel-1" id="svid-faq-head-1">
+              <span class="acc__title">Обязательно ли являться на&nbsp;допрос?</span>
+              <span class="acc__marker" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="svid-faq-panel-1" role="region" aria-labelledby="svid-faq-head-1">
+            <div class="acc__body">
+              <p>Лицо, вызванное на&nbsp;допрос, обязано явиться в&nbsp;назначенный срок либо заранее уведомить следователя о&nbsp;причинах неявки.</p>
+              <p>Повестка может вручаться под расписку или передаваться с&nbsp;помощью средств связи в&nbsp;порядке, предусмотренном статьёй 188 УПК&nbsp;РФ.</p>
+              <p>При неявке без уважительных причин возможно применение предусмотренных законом мер процессуального принуждения.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="acc" data-reveal>
+          <h3 class="acc__heading">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="svid-faq-panel-2" id="svid-faq-head-2">
+              <span class="acc__title">Можно ли прийти на&nbsp;допрос со&nbsp;своим адвокатом?</span>
+              <span class="acc__marker" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="svid-faq-panel-2" role="region" aria-labelledby="svid-faq-head-2">
+            <div class="acc__body">
+              <p>Да. Такое право прямо предусмотрено пунктом 6 части 4 статьи 56 и&nbsp;частью 5 статьи 189 УПК&nbsp;РФ.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="acc" data-reveal>
+          <h3 class="acc__heading">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="svid-faq-panel-3" id="svid-faq-head-3">
+              <span class="acc__title">Можно ли отказаться отвечать на&nbsp;вопросы следователя?</span>
+              <span class="acc__marker" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="svid-faq-panel-3" role="region" aria-labelledby="svid-faq-head-3">
+            <div class="acc__body">
+              <p>Статья 51 Конституции&nbsp;РФ позволяет не&nbsp;свидетельствовать против себя, супруга или супруги и&nbsp;близких родственников. В&nbsp;остальных случаях необходимо учитывать предусмотренные законом обязанности свидетеля и&nbsp;установленные исключения.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="acc" data-reveal>
+          <h3 class="acc__heading">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="svid-faq-panel-4" id="svid-faq-head-4">
+              <span class="acc__title">Что делать, если показания неверно отражены в&nbsp;протоколе?</span>
+              <span class="acc__marker" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="svid-faq-panel-4" role="region" aria-labelledby="svid-faq-head-4">
+            <div class="acc__body">
+              <p>Свидетель вправе потребовать дополнения или уточнения протокола. Адвокат может сделать письменные замечания относительно правильности и&nbsp;полноты записей в&nbsp;пределах своих процессуальных полномочий.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="acc" data-reveal>
+          <h3 class="acc__heading">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="svid-faq-panel-5" id="svid-faq-head-5">
+              <span class="acc__title">Сколько составляет вознаграждение адвоката?</span>
+              <span class="acc__marker" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="svid-faq-panel-5" role="region" aria-labelledby="svid-faq-head-5">
+            <div class="acc__body">
+              <p>Размер вознаграждения определяется индивидуально в&nbsp;зависимости от&nbsp;характера и&nbsp;объёма поручения.</p>
+              <p>Консультация, подготовка к&nbsp;допросу и&nbsp;непосредственное участие адвоката в&nbsp;следственном действии могут составлять отдельные виды юридической помощи.</p>
+              <p>Условия согласовываются при заключении соглашения об&nbsp;оказании юридической помощи.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= БЛОК 7. ОБ АДВОКАТЕ И ОБРАЩЕНИЕ =============================
+       Первая часть блока: об адвокате и кнопка. Вторая часть —
+       «Нужна помощь при вызове на допрос?» — форма ниже -->
+  <section class="section theme-light vyezd-help" id="svid-about">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 06</p>
+      <div class="split split--narrow">
+        <div class="split__text">
+          <h2 class="section__title" data-reveal>Об&nbsp;адвокате и&nbsp;обращение</h2>
+          <h3 class="p228-sub" data-reveal>Адвокат Сергей Анатольевич Иванцов</h3>
+          <p class="urgent__desc" data-reveal>Оказываю квалифицированную юридическую помощь по&nbsp;уголовным делам, в&nbsp;том числе при вызове на&nbsp;допрос в&nbsp;качестве свидетеля.</p>
+          <p class="urgent__desc" data-reveal>В&nbsp;своей работе уделяю внимание изучению обстоятельств дела, анализу процессуальных документов и&nbsp;соблюдению прав доверителя.</p>
+          <p class="urgent__desc" data-reveal>Юридическая помощь оказывается на&nbsp;основании соглашения об&nbsp;оказании юридической помощи в&nbsp;соответствии с&nbsp;Федеральным законом от&nbsp;31.05.2002 №&nbsp;63-ФЗ.</p>
+          <div class="vyezd-actions" data-reveal>
+            <a class="btn btn--primary" href="tel:+79260730999" data-site="phone-link" data-goal="phone_svidetel">Связаться с&nbsp;адвокатом</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= ФОРМА ОБРАЩЕНИЯ (БЛОК 7, вторая часть) =============================
+       Форма страницы 228: токен, поле-ловушка, согласие отдельной галкой
+       со ссылкой на /soglasie/, политика отдельной строкой — без изменений.
+       Из ТЗ — заголовок, абзац, подпись третьего поля, текст кнопки и
+       строка под формой; подсказка под полем описания — как на 228. id полей менять нельзя: по ним форму находит
+       js/main.js. Страница-источник уходит в заявку из <body data-page> -->
+  <section class="section urgent theme-dark vyezd-lead" id="svid-lead">
+    <div class="container">
+      <form class="lead ym-hide-content ym-disable-keys" id="lead-form" novalidate data-reveal>
+        <h3 class="lead__title">Нужна помощь при вызове на&nbsp;допрос?</h3>
+        <p class="lead__lead">Вы можете обратиться за&nbsp;консультацией, кратко сообщить обстоятельства вызова и&nbsp;согласовать дальнейший порядок оказания юридической помощи.</p>
+
+        <!-- Поле-ловушка для ботов: уведено за край экрана, скрыто от
+             экранных дикторов и пропущено при обходе клавишей Tab -->
+        <div class="lead__trap" aria-hidden="true">
+          <label for="lead-hp-url">Не заполняйте это поле</label>
+          <input id="lead-hp-url" name="hp_url" type="text" tabindex="-1" autocomplete="off">
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="lead-name">Имя</label>
+          <input class="field__input ym-disable-keys ym-hide-content" id="lead-name" name="name" type="text"
+                 autocomplete="given-name" required maxlength="60"
+                 aria-describedby="lead-name-error">
+          <p class="field__error" id="lead-name-error" hidden>Укажите, как к вам обращаться</p>
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="lead-phone">Телефон</label>
+          <input class="field__input ym-disable-keys ym-hide-content" id="lead-phone" name="phone" type="tel"
+                 inputmode="tel" autocomplete="tel" required
+                 placeholder="+7 (___) ___-__-__"
+                 aria-describedby="lead-phone-error">
+          <p class="field__error" id="lead-phone-error" hidden>Введите номер полностью</p>
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="lead-message">Краткое описание вопроса <span class="field__optional">(необязательно)</span></label>
+          <textarea class="field__input field__input--area ym-disable-keys ym-hide-content" id="lead-message" name="message"
+                    rows="3" maxlength="600" aria-describedby="lead-message-hint"></textarea>
+          <p class="field__hint" id="lead-message-hint">Для первоначальной связи достаточно кратко обозначить вопрос. Пожалуйста, не&nbsp;указывайте сведения о&nbsp;здоровье, частной жизни, третьих лицах и&nbsp;другие конфиденциальные подробности. Их&nbsp;можно обсудить непосредственно с&nbsp;адвокатом после установления контакта.</p>
+        </div>
+
+        <!-- Согласие на обработку ПДн — отдельным действием (ст. 9 152-ФЗ
+             в редакции с 01.09.2025), текст согласия — /soglasie/.
+             Политика — отдельной строкой ниже -->
+        <label class="consent">
+          <input class="consent__box ym-disable-keys ym-hide-content" id="lead-consent" name="consent" type="checkbox" required>
+          <span class="consent__text">Я даю <a href="/ivantsov-preview/soglasie/" target="_blank" rel="noopener">согласие на&nbsp;обработку моих персональных данных</a></span>
+        </label>
+
+        <p class="consent__policy">Отправляя заявку, вы&nbsp;подтверждаете, что ознакомлены с&nbsp;<a href="/ivantsov-preview/policy/" target="_blank" rel="noopener">политикой конфиденциальности</a>.</p>
+
+        <button class="btn btn--primary btn--wide lead__submit" id="lead-submit" type="submit" disabled aria-describedby="lead-consent-hint">Отправить обращение</button>
+        <p class="field__hint" id="lead-consent-hint">Чтобы отправить заявку, отметьте согласие на&nbsp;обработку персональных данных.</p>
+
+        <!-- Строка из ТЗ «Под формой». Подсказка под полем описания — прежняя,
+             как на остальных страницах (правка 13.11.2026: нужны обе) -->
+        <p class="field__hint svid-form-note">Для первоначального обращения достаточно кратко описать вопрос. Передачу документов и&nbsp;конфиденциальных сведений согласуйте с&nbsp;адвокатом.</p>
+
+        <p class="lead__status" id="lead-status" role="status" aria-live="polite" hidden></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================= КОНТАКТЫ =============================
+       Секция страницы 228, контакты — с действующего сайта.
+       Карта — только по кнопке «Показать карту» (раздел 7 политики) -->
+  <section class="section theme-dark" id="contacts">
+    <div class="container">
+      <p class="sheet-label" data-reveal>лист 07 · контакты</p>
+      <h2 class="section__title" data-reveal>Контакты</h2>
+
+      <div class="contacts">
+        <div class="contacts__info" data-reveal>
+          <dl class="contacts__list">
+            <div class="contacts__row">
+              <dt>Адрес</dt>
+              <dd>Москва, Мясницкая улица, 24/7с1, подъезд&nbsp;6, этаж&nbsp;5, офис&nbsp;67</dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Телефон</dt>
+              <dd><a class="contacts__link" href="tel:+79260730999" data-site="phone-link" data-goal="phone_svidetel"><span data-site="phone-text">+7 (926) 073-09-99</span></a></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Telegram</dt>
+              <dd><a class="contacts__link" href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_svidetel"><span data-site="telegram-text">@advokat_ivantsov</span></a></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>WhatsApp</dt>
+              <dd><a class="contacts__link" href="https://wa.me/79260730999" target="_blank" rel="noopener" data-site="whatsapp-link" data-goal="whatsapp_svidetel">Написать в&nbsp;WhatsApp</a></dd>
+            </div>
+            <div class="contacts__row">
+              <dt>Почта</dt>
+              <dd><a class="contacts__link" href="mailto:law@advokativantsov.ru" data-site="email-link" data-goal="email_svidetel"><span data-site="email-text">law@advokativantsov.ru</span></a></dd>
+            </div>
+          </dl>
+
+          <div class="contacts__actions">
+            <a class="btn btn--primary btn--wide" href="tel:+79260730999" data-site="phone-link" data-goal="phone_svidetel">Позвонить</a>
+            <a class="btn btn--ghost btn--wide" href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_svidetel">Написать в Telegram</a>
+            <a class="btn btn--ghost btn--wide" href="https://wa.me/79260730999" target="_blank" rel="noopener" data-site="whatsapp-link" data-goal="whatsapp_svidetel">Написать в WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="contacts__map" data-reveal>
+          <div class="widget-gate widget-gate--map"
+               data-src="https://yandex.ru/map-widget/v1/?ol=biz&oid=156938785011&z=16"
+               data-title="Офис адвоката Иванцова: Москва, Мясницкая улица, 24/7с1 — на карте"
+               data-frame-class="map__frame" data-fullscreen>
+            <p class="widget-gate__address">Москва, Мясницкая улица, 24/7с1, подъезд&nbsp;6, этаж&nbsp;5, офис&nbsp;67</p>
+            <button class="btn btn--ghost widget-gate__show" type="button" data-widget-show data-goal="map_show" data-goal-page>Показать карту</button>
+            <a class="widget-gate__link" href="https://yandex.ru/maps/org/advokat_ivantsov_s_a_/156938785011" target="_blank" rel="noopener" data-goal="map_open" data-goal-page>Открыть в&nbsp;Яндекс Картах</a>
+          </div>
+          <p class="map__hint">Мясницкая, 24/7с1 — 5 минут пешком от метро «Чистые пруды» и&nbsp;«Тургеневская»</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================= ПОДВАЛ =============================
+     Как на странице 228; разделы ведут на секции главной -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="footer__name">Адвокат Иванцов Сергей Анатольевич · АП города Москвы · рег. № 77/16961</p>
+    <nav class="footer__nav" aria-label="Разделы сайта">
+      <a href="/ivantsov-preview/#criminal">Уголовная защита</a>
+      <a href="/ivantsov-preview/#business">Уголовные дела в сфере предпринимательской деятельности</a>
+      <a href="/ivantsov-preview/#victim">Представительство потерпевших</a>
+      <a href="/ivantsov-preview/#about">Почему мне доверяют</a>
+      <a href="/ivantsov-preview/#consultation">Консультации и вознаграждение адвоката</a>
+      <a href="/ivantsov-preview/#contacts">Контакты</a>
+      <a href="/ivantsov-preview/srochnyj-vyezd-advokata/" data-goal="link_vyezd_from_svidetel">Срочный выезд адвоката в Москве</a>
+      <a href="/ivantsov-preview/advokat-po-moshennichestvu/" data-goal="link_moshennichestvo_from_svidetel">Адвокат по мошенничеству в Москве</a>
+      <a href="/ivantsov-preview/advokat-po-228/" data-goal="link_po228_from_svidetel">Адвокат по статьям 228 и 228.1 УК РФ в Москве</a>
+      <a href="/ivantsov-preview/advokat-svidetelya/" aria-current="page">Адвокат свидетеля по уголовному делу в Москве</a>
+    </nav>
+    <p class="footer__note">Информация на сайте не является публичной офертой.</p>
+    <nav class="footer__links" aria-label="Внешние площадки">
+      <a href="https://profi.ru/profile/IvantsovSA4" target="_blank" rel="noopener">Профи.ру</a>
+      <a href="https://yandex.ru/maps/org/advokat_ivantsov_s_a_/156938785011" target="_blank" rel="noopener">Яндекс Карты</a>
+      <a href="https://harant.ru/lawyers/moskva/ivanczov-sergej-anatolevich/" target="_blank" rel="noopener">HARANT</a>
+      <a href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_svidetel">Telegram</a>
+    </nav>
+    <nav class="footer__legal" aria-label="Правовая информация">
+      <a href="/ivantsov-preview/policy/" target="_blank" rel="noopener">Политика конфиденциальности</a>
+      <button class="footer__legal-btn" type="button" id="cookie-settings" hidden>Настройки cookie</button>
+    </nav>
+  </div>
+</footer>
+
+<!-- ============================= МОБИЛЬНАЯ ПАНЕЛЬ СВЯЗИ =============================
+     Как на странице 228; прячется при открытой клавиатуре -->
+<div class="mobile-bar" id="mobile-bar" aria-label="Быстрая связь">
+  <a class="mobile-bar__btn mobile-bar__btn--call" href="tel:+79260730999" data-site="phone-link" data-goal="phone_svidetel">Позвонить</a>
+  <a class="mobile-bar__btn" href="https://wa.me/79260730999" target="_blank" rel="noopener" data-site="whatsapp-link" data-goal="whatsapp_svidetel">WhatsApp</a>
+  <a class="mobile-bar__btn" href="https://t.me/advokat_ivantsov" target="_blank" rel="noopener" data-site="telegram-link" data-goal="telegram_svidetel">Telegram</a>
+  <a class="mobile-bar__btn" href="#lead-form" data-goal="lead_svidetel">Заявка</a>
+</div>
+
+<!-- ============================= COOKIE-УВЕДОМЛЕНИЕ =============================
+     Копия плашки с главной. Выбор общий для всего сайта (localStorage):
+     Метрика загружается только после «Принять» (js/main.js) -->
+<div class="cookie" id="cookie-banner" role="dialog" aria-modal="false"
+     aria-labelledby="cookie-title" aria-describedby="cookie-text" tabindex="-1" hidden>
+  <div class="container cookie__inner">
+    <div class="cookie__body">
+      <h2 class="cookie__title" id="cookie-title">Файлы cookie</h2>
+      <p class="cookie__text" id="cookie-text">Яндекс&nbsp;Метрика помогает нам понять посещаемость сайта и&nbsp;эффективность рекламы. Её&nbsp;файлы cookie появятся только после «Принять»&nbsp;— отказ ничего не&nbsp;ограничивает. <a href="/ivantsov-preview/policy/#cookie">Подробнее о&nbsp;cookie</a></p>
+    </div>
+    <div class="cookie__actions">
+      <button class="btn btn--primary cookie__btn" type="button" id="cookie-accept">Принять</button>
+      <button class="btn btn--primary cookie__btn" type="button" id="cookie-decline">Только необходимые</button>
+    </div>
+  </div>
+  <button class="cookie__close" type="button" id="cookie-close"
+          aria-label="Закрыть и оставить только необходимые cookie">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<!-- Пикселя Метрики без JavaScript нет намеренно — см. главную -->
+
+<!-- Раскладка до js/main.js — почему, см. конец главной -->
+<script>document.body.offsetHeight;</script>
+
+</body>
+</html>
